@@ -4,4 +4,5 @@ steps:
 - name: 'gcr.io/cloud-builders/docker'
   args: ['push', 'asia-east1-docker.pkg.dev/algebraic-creek-429005-h2/images/my-python-web']
 images: ['asia-east1-docker.pkg.dev/algebraic-creek-429005-h2/images/my-python-web']
-
+options:
+  logging: CLOUD_LOGGING_ONLY
